@@ -5,3 +5,5 @@ with open('../config.yaml', 'r') as file:
 
 if config['run_localhost']:
     print("Error: Cannot run on localhost.")  
+else:
+    print("Working fine")
